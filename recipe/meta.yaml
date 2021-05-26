@@ -39,7 +39,7 @@ test:
 
 about:
   home: http://mbojan.github.io/intergraph
-  license: GPL-3
+  license: GPL-3.0-only
   summary: 'Functions implemented in this package allow to coerce (i.e. convert) network data
     between classes provided by other R packages. Currently supported classes are those
     defined in packages: network and igraph.'
