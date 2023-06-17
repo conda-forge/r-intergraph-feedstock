@@ -1,11 +1,11 @@
-About r-intergraph
-==================
+About r-intergraph-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-intergraph-feedstock/blob/main/LICENSE.txt)
 
 Home: http://mbojan.github.io/intergraph
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-intergraph-feedstock/blob/main/LICENSE.txt)
 
 Summary: Functions implemented in this package allow to coerce (i.e. convert) network data between classes provided by other R packages. Currently supported classes are those defined in packages: network and igraph.
 
