@@ -1,4 +1,4 @@
-{% set version = '2.0-2' %}
+{% set version = "2.0-3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,12 +10,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/intergraph_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/intergraph/intergraph_{{ version }}.tar.gz
-  sha256: 6cbe77f1e87fa1c110db2d46010f2f3ae72bfdb708ce2ca84c1cdc2cd6eb47a1
+  sha256: 354640a8ac4a1186e6d229b6c25f0535be3e456c13b1e7224a1632d3a346a7e8
 
 build:
   noarch: generic
-  merge_build_host: True  # [win]
-  number: 1004
+  merge_build_host: true  # [win]
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -40,9 +40,7 @@ test:
 about:
   home: http://mbojan.github.io/intergraph
   license: GPL-3.0-only
-  summary: 'Functions implemented in this package allow to coerce (i.e. convert) network data
-    between classes provided by other R packages. Currently supported classes are those
-    defined in packages: network and igraph.'
+  summary: 'Functions implemented in this package allow to coerce (i.e. convert) network data between classes provided by other R packages. Currently supported classes are those defined in packages: network and igraph.'
   license_family: GPL3
   license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
