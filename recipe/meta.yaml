@@ -1,4 +1,4 @@
-{% set version = "2.0-3" %}
+{% set version = "2.0-4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/intergraph_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/intergraph/intergraph_{{ version }}.tar.gz
-  sha256: 354640a8ac4a1186e6d229b6c25f0535be3e456c13b1e7224a1632d3a346a7e8
+  sha256: 585f2f9fa92aa52022dfdcbe597a3654099ca63c1d4110a0f8e895fa32fc59c9
 
 build:
   noarch: generic
